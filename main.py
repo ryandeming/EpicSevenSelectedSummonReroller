@@ -174,7 +174,7 @@ class SummonGUI:
         webbrowser.open("https://epic7db.com/bluestacks")
 
 def start_reroll_process(priorities):
-    highest_level_found = 0
+    highest_level_found = 30
     current_level = 0
     
     while True:
