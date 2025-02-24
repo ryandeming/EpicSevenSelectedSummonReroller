@@ -4,7 +4,9 @@ Very basic program that rerolls until it finds a summon result with a higher lev
 
 This program is designed to be run with bluestacks at the 1600x900 resolution. It may not work with other programs or resolutions.
 
-When downloading bluestacks it would be very helpful for me if you would use my affiliate link: https://epic7db.com/bluestacks. When downloading, it will prompt you to install a different game. If you install it, I get a small commission. This is not necessary to use the program, but it is appreciated.
+When downloading bluestacks it would be very helpful for me if you would use my affiliate link: [Download BlueStacks](https://epic7db.com/bluestacks). When downloading, it will prompt you to install a different game. If you install it, I get a small commission. This is not necessary to use the program, but it is appreciated.
+
+This program will NOT work with the official desktop client as external clicks are not recorded on there.
 
 ## Prerequisites
 

@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import os
+import webbrowser
 
 class SummonGUI:
     def __init__(self, root):
@@ -43,7 +44,8 @@ class SummonGUI:
         self.create_treeview(main_frame, "Artifacts", ['wonderous_vial', 'tagahels', 'magarahas', 'aurius'], 2)
 
         # Start button
-        ttk.Button(main_frame, text="Save & Start", command=self.start_program).grid(row=3, column=0, columnspan=2, pady=10)
+        ttk.Button(main_frame, text="Save & Start", command=self.start_program).grid(row=3, column=0, columnspan=1, pady=10, padx=5)
+        ttk.Button(main_frame, text="Download BlueStacks", command=self.download_bluestacks).grid(row=3, column=1, columnspan=1, pady=10, padx=5)
 
     def create_treeview(self, parent, title, items, row):
         # Create frame for this section
@@ -167,6 +169,9 @@ class SummonGUI:
         self.save_priorities()
         self.root.destroy()
         start_reroll_process(self.priorities)
+
+    def download_bluestacks(self):
+        webbrowser.open("https://epic7db.com/bluestacks")
 
 def start_reroll_process(priorities):
     highest_level_found = 0
